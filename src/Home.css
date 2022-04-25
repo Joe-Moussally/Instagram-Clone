@@ -1,0 +1,16 @@
+#feed {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#Post {
+    transform: translateX(-30%);
+}
+
+#Flyer {
+    margin-left: 65%;
+    display: flex;
+    position: fixed;
+    height: fit-content;
+}

@@ -1,0 +1,58 @@
+.user-flyer {
+    display: flex;
+    flex-direction: row;
+    height: fit-content;
+    width: 320px;
+    align-items: center;
+    margin: 0 15px;
+    border-top: 1px rgba(128, 128, 128, 0.364) solid ;
+}
+
+.user-flyer > button {
+    border: none;
+    color: white;
+    background: rgb(0, 136, 255);
+    padding: 4px 15px;
+    margin: 0 10px;
+    border-radius: 4px;
+}
+
+.user-flyer > button:hover {
+    cursor: pointer;
+}
+
+.user-flyer > span {
+    margin-right: auto;
+    white-space: nowrap;
+}
+
+.users-flyer > p {
+    font-weight: 600;
+    margin: 15px;
+}
+
+.users-flyer > button {
+    padding: 10px 40px;
+    border: none;
+    background: linear-gradient(to right,rgb(0, 81, 255) 0% 30%, rgba(255, 0, 157, 0.503) 60% 70%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 600;
+}
+
+.users-flyer > button:hover {
+    cursor: pointer;
+}
+
+.user-flyer > img {
+    margin: 7px 10px;
+}
+
+.users-flyer{
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.253);
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 10px;
+}
